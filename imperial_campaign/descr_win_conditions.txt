@@ -1,0 +1,213 @@
+norway
+hold_regions Edinburgh_Province Jerusalem_Province
+take_regions 40
+outlive denmark scotland
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+denmark
+hold_regions Jerusalem_Province Roskilde_Province
+take_regions 40
+outlive norway
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+scotland
+hold_regions Jerusalem_Province London_Province
+take_regions 40
+outlive england
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+venice
+hold_regions Jerusalem_Province Constantinople_Province
+take_regions 40
+outlive byzantium
+short_campaign hold_regions Constantinople_Province
+take_regions 20
+
+sicily
+hold_regions Jerusalem_Province Constantinople_Province
+take_regions 40
+outlive byzantium
+short_campaign hold_regions Constantinople_Province
+take_regions 20
+
+abbasid
+hold_regions Constantinople_Province Cairo_Province Baghdad_Province
+take_regions 40
+outlive turks zengid egypt
+short_campaign hold_regions Cairo_Province Baghdad_Province
+take_regions 20
+
+egypt
+hold_regions Constantinople_Province Cairo_Province Baghdad_Province
+take_regions 40
+outlive turks zengid abbasid
+short_campaign hold_regions Cairo_Province Baghdad_Province
+take_regions 20
+
+cumans
+hold_regions Constantinople_Province Kiev_Province
+take_regions 40
+outlive kievan_rus
+short_campaign hold_regions Kiev_Province
+take_regions 20
+
+turks
+hold_regions Constantinople_Province Cairo_Province Baghdad_Province
+take_regions 40
+outlive zengid egypt georgia
+short_campaign hold_regions Cairo_Province Baghdad_Province
+take_regions 25
+
+france
+hold_regions Jerusalem_Province London_Province
+take_regions 40
+outlive england
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+hre
+hold_regions Jerusalem_Province Palermo_Province
+take_regions 40
+outlive sicily
+short_campaign hold_regions Jerusalem_Province
+take_regions 25
+
+england
+hold_regions Jerusalem_Province Paris_Province
+take_regions 40
+outlive scotland france
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+portugal
+hold_regions Jerusalem_Province Marrakesh_Province
+take_regions 40
+outlive aragon spain
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+poland
+hold_regions Jerusalem_Province Kiev_Province
+take_regions 40
+outlive lithuania
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+byzantium
+hold_regions Jerusalem_Province Constantinople_Province Cairo_Province
+take_regions 40
+outlive serbia rum
+short_campaign hold_regions Jerusalem_Province Constantinople_Province
+take_regions 25
+
+moors
+hold_regions Jerusalem_Province Cairo_Province
+take_regions 40
+outlive aragon portugal spain
+short_campaign hold_regions Cairo_Province
+take_regions 25
+
+russia
+hold_regions Constantinople_Province Kiev_Province
+take_regions 40
+outlive kievan_rus lithuania
+short_campaign hold_regions Constantinople_Province Kiev_Province
+take_regions 20
+
+spain
+hold_regions Jerusalem_Province 
+take_regions 40
+outlive portugal aragon
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+hungary
+hold_regions Jerusalem_Province Constantinople_Province
+take_regions 40
+outlive serbia
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+aragon
+hold_regions Jerusalem_Province Palermo_Province
+take_regions 40
+outlive spain portugal sicily
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+lithuania
+hold_regions Krakow_Province Kiev_Province
+take_regions 40
+outlive russia poland
+short_campaign hold_regions Kiev_Province Constantinople_Province
+take_regions 20
+
+kievan_rus
+hold_regions Constantinople_Province Kiev_Province
+take_regions 40
+outlive russia lithuania
+short_campaign hold_regions Constantinople_Province Kiev_Province
+take_regions 20
+
+serbia
+hold_regions Jerusalem_Province Constantinople_Province
+take_regions 40
+outlive byzantium
+short_campaign hold_regions Constantinople_Province
+take_regions 20
+
+georgia
+hold_regions Jerusalem_Province Constantinople_Province
+take_regions 40
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+jerusalem
+hold_regions Jerusalem_Province Cairo_Province Baghdad_Province
+take_regions 40
+outlive egypt zengid
+short_campaign hold_regions Jerusalem_Province Cairo_Province
+take_regions 20
+
+zengid
+hold_regions Constantinople_Province Cairo_Province Baghdad_Province
+take_regions 40
+outlive jerusalem abbasid egypt
+short_campaign hold_regions Cairo_Province Baghdad_Province
+take_regions 20
+
+rum
+hold_regions Cairo_Province Baghdad_Province Constantinople_Province
+take_regions 40
+outlive byzantium zengid
+short_campaign hold_regions Baghdad_Province Constantinople_Province
+take_regions 20
+
+pisa
+hold_regions Jerusalem_Province Constantinople_Province
+take_regions 40
+outlive venice sicily
+short_campaign hold_regions Jerusalem_Province
+take_regions 20
+
+papal_states
+hold_regions Jerusalem_Province 
+take_regions 50
+short_campaign hold_regions Jerusalem_Province
+take_regions 30
+
+mongols
+hold_regions Constantinople_Province Cairo_Province Baghdad_Province Kiev_Province
+take_regions 60
+short_campaign hold_regions Constantinople_Province Cairo_Province Baghdad_Province Kiev_Province
+take_regions 30
+
+slave
+hold_regions
+take_regions 199
+short_campaign hold_regions
+take_regions 199
+
