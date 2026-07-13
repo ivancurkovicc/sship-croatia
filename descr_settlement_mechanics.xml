@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+	<!-- SS6.4 settlement mechanics edited by gracul: Jan-2011 -->
+	<!-- SSHIP edited by MWY, JoC -->
+<root>
+	<factor_modifiers>
+											<!-- POPULATION GROWTH (multiply 0.5%)  -->	
+		<factor name="SPF_FARMING_LEVEL">			<!-- fertility number in regions.txt -->
+			<pip_modifier value="1.0"/>
+			<city_modifier value="1.00"/>
+			<castle_modifier value="1.00"/>
+		</factor>
+		<factor name="SPF_FARMS_BUILT">				<!-- FARMING_level in EDB -->
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SPF_HEALTH">					<!-- population_HEALTH_bonus in EDB -->
+			<pip_modifier value="1.0"/>
+			<castle_modifier value="1.0"/>
+			<city_modifier value="1.0"/>
+			<pip_min value="0"/>
+			<pip_max value="100"/>
+		</factor>
+		<factor name="SPF_BUILDINGS">				<!-- population_GROWTH_bonus in EDB -->
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SPF_TAX_RATE_BONUS">
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SPF_BUILDINGS_FUN">			<!-- HAPPINESS_bonus in EDB -->
+			<pip_modifier value="0.2"/>
+			<pip_min value="0"/>
+			<pip_max value="100"/>
+		</factor>
+		<factor name="SPF_GOVERNORS_INFLUENCE">		<!-- FM serving as governor: Chivalry, perhaps also traits -->
+			<pip_modifier value="1.5"/>
+			<pip_min value="0"/>
+			<pip_max value="10"/>
+		</factor>
+		<factor name="SPF_TRADE">					<!-- don't make it too high as it is applied to very low levels of settlement - and then villages have +10% pop -->
+			<pip_modifier value="0.01"/>			<!-- to avoid that effect it is set here to very low while pop growth from trade should go through explicit bonuses of trade building -->
+			<castle_modifier value="1.0"/>
+			<city_modifier value="1.0"/>
+			<pip_min value="0"/>
+			<pip_max value="25"/>
+		</factor>
+		<factor name="SPF_SQUALOUR">
+			<pip_modifier value="1.0"/>
+			<castle_modifier value="1.0"/>
+			<city_modifier value="1.0"/>
+			<pip_min value="0"/>
+			<pip_max value="200"/>
+		</factor>
+		<factor name="SPF_PLAGUE">
+			<pip_modifier value="1.0"/>
+			<castle_modifier value="0.75"/>
+			<city_modifier value="1.5"/>
+		</factor>
+		<factor name="SPF_TAX_RATE_PENALTY">
+			<pip_modifier value="1.0"/>
+		</factor>
+										<!-- PUBLIC ORDER (multiply 0.5% ?)  -->			
+		<factor name="SOF_GARRISON">
+            <pip_modifier value = "1.0"/>
+            <pip_min value="0"/>
+			<pip_max value="16"/>
+		</factor>
+		<factor name="SOF_BUILDINGS_LAW">
+			<pip_modifier value="0.5"/>
+			<pip_min value="0"/>
+			<pip_max value="100"/>
+		</factor>
+		<factor name="SOF_BUILDINGS_FUN">
+			<pip_modifier value="0.4"/>
+			<pip_min value="0"/>
+			<pip_max value="100"/>
+		</factor>
+		<factor name="SOF_GOVERNORS_INFLUENCE">		<!-- perhaps Dread and Chivalry  -->
+			<pip_modifier value="1.0"/>
+			<pip_min value="0"/>
+			<pip_max value="50"/>
+		</factor>
+		<factor name="SOF_TAX_BONUS">
+			<pip_modifier value="0.65"/>
+		</factor>
+		<factor name="SOF_TRIUMPH">
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SOF_BOOM">				<!-- perhaps population boom - keep low so it rarely happens after the end of the plague -->
+			<pip_modifier value="0.2"/>
+			<castle_modifier value="0.2"/>
+		</factor>
+		<factor name="SOF_ENTERTAINED">
+			<pip_modifier value="0.5"/>
+			<castle_modifier value="0.5"/>
+		</factor>
+		<factor name="SOF_HEALTH">
+			<pip_modifier value="0.6"/>
+			<castle_modifier value="1.0"/>
+			<pip_min value="-100"/>				<!-- need for Re-Emergent Factions. -->
+			<pip_max value="25"/>			
+		</factor>
+		<factor name="SOF_FEAR">
+			<pip_modifier value="0.5"/>
+		</factor>
+		<factor name="SOF_GLORY">				<!-- ownership of Jerusalem, previously 1.0 -->
+			<pip_modifier value="0.5"/>
+		</factor>
+		<factor name="SOF_SQUALOUR">
+			<pip_modifier value="0.45"/>
+			<pip_min value="0"/>
+			<pip_max value="25"/>
+		</factor>
+		<factor name="SOF_DISTANCE_TO_CAPITAL">
+			<pip_modifier value="0.4"/>
+			<castle_modifier value="1.0"/>
+			<city_modifier value="1.0"/>
+			<pip_min value="0"/>
+			<pip_max value="10"/>
+		</factor>
+		<factor name="SOF_NO_GOVERNANCE">
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SOF_TAX_PENALTY">
+			<pip_modifier value="0.85"/>
+		</factor>
+		<factor name="SOF_TURMOIL">
+			<pip_modifier value="1.0"/>
+			<castle_modifier value="0.8"/>
+			<pip_min value="0"/>
+			<pip_max value="50"/>
+		</factor>
+		<factor name="SOF_BESIEGED">
+			<pip_modifier value="1.5"/>
+		</factor>
+		<factor name="SOF_BLOCKADED">
+			<pip_modifier value="2.0"/>
+		</factor>
+		<factor name="SOF_RELIGIOUS_UNREST">
+			<pip_modifier value="0.7"/>
+			<castle_modifier value="0.5"/>
+			<pip_max value="15"/>
+		</factor>
+		<factor name="SOF_EXCOMMUNICATION">
+			<pip_modifier value="2.0"/>
+			<castle_modifier value="1.0"/>
+			<city_modifier value="1.0"/>
+		</factor>
+											<!-- INCOME (multiply 0.5% ?)  -->			
+		<factor name="SIF_FARMS">
+			<pip_modifier value="0.9"/>
+		</factor>
+		<factor name="SIF_TAXES">
+			<pip_modifier value="1.2"/>
+			<castle_modifier value="0.7"/>
+		</factor>
+		<factor name="SIF_MINING">
+			<pip_modifier value="0.9"/>
+		</factor>
+		<factor name="SIF_TRADE">
+			<pip_modifier value="0.5"/>
+			<castle_modifier value="0.6"/>
+		</factor>
+		<factor name="SIF_BUILDINGS">
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SIF_ADMIN">
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SIF_WAGES">
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SIF_UPKEEP">
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SIF_CORRUPTION">
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SIF_ENTERTAINMENT">
+			<pip_modifier value="1.0"/>
+		</factor>
+		<factor name="SIF_DEVASTATION">
+			<pip_modifier value="4.0"/>
+		</factor>
+	</factor_modifiers>
+	<population_levels>
+		<!-- city -->
+		<level name="village" base="100" upgrade="2000" min="400" max="3000"/>
+		<level name="town" base="500" upgrade="6000" min="1000" max="9000"/>
+		<level name="large_town" base="1000" upgrade="12500" min="3000" max="16000"/>
+		<level name="city" base="6000" upgrade="30000" min="8000" max="45000"/>
+		<level name="large_city" base="15000" upgrade="80000" min="20000" max="100000"/>
+		<level name="huge_city" base="25000" min="30000" max="250000"/>
+		<!-- castle -->
+		<level name="moot_and_bailey" base="100" upgrade="2000" min="400" max="2500"/>
+		<level name="wooden_castle" base="500" upgrade="6000" min="1000" max="9000"/>
+		<level name="castle" base="2000" upgrade="12500" min="2000" max="16000"/>
+		<level name="fortress" base="6000" upgrade="30000" min="10000" max="40000"/>
+		<level name="citadel" base="15000" min="15000" max="100000"/>
+	</population_levels>
+</root>

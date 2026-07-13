@@ -1,0 +1,180 @@
+; custom locations , add new locations at the bottom
+;;; Old placeholder locations
+
+
+custom_location		Open Forest
+{
+	location		196	201
+	image			data/menu/battlefield_pics/openforest.tga
+	sett_locked		no
+	climate			unused1
+	summer			no
+}
+custom_location		Swiss Alp
+{
+	location		130 181
+	image			data/menu/battlefield_pics/swiss_alps.tga
+	sett_locked		no
+	climate			alpine
+	summer			no
+}
+custom_location		Scottish Glen
+{
+	location		48	260
+	image			data/menu/battlefield_pics/scottish_glen.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		Morocco
+{
+	location		47	77
+	image			data/menu/battlefield_pics/morocco.tga
+	sett_locked		no
+	climate			rocky_desert
+	summer			yes
+}
+custom_location		Tuscany
+{
+	location		158	157
+	image			data/menu/battlefield_pics/tuscany.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			yes
+}
+custom_location		Estonia
+{
+	location		257	270
+	image			data/menu/battlefield_pics/estonia.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		Andalusia
+{
+	location		40	116
+	image			data/menu/battlefield_pics/andalusia.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			yes
+}
+custom_location		Spanish Plain
+{
+	location		55 131
+	image			data/menu/battlefield_pics/spanish_plains.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			yes
+}
+custom_location		English Plain
+{
+	location		73	226
+	image			data/menu/battlefield_pics/English_Plain.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			yes
+}
+custom_location		Armenia
+{
+	location		394	127
+	image			data/menu/battlefield_pics/Armenian_Hills.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			yes
+}
+custom_location		Cuman Steppe
+{
+	location		378	186
+	image			data/menu/battlefield_pics/Steppe_Hills.tga
+	sett_locked		no
+	climate			steppe
+	summer			yes
+}
+custom_location		Saharan Sands
+{
+	location		220	62
+	image			data/menu/battlefield_pics/saharan_sands.tga
+	sett_locked		no
+	climate			sandy_desert
+	summer			yes
+}
+custom_location		Lebanon
+{
+	location		334	92
+	image			data/menu/battlefield_pics/lebanon.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			yes
+}
+custom_location		Arabia
+{
+	location		380	49
+	image			data/menu/battlefield_pics/arabia.tga
+	sett_locked		no
+	climate			sandy_desert
+	summer			yes
+}
+custom_location		The Sea of Grass
+{
+	location		337	181
+	image			data/menu/battlefield_pics/sea_of_grass.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		Spanish Shore
+{
+	location		56	111
+	image			data/menu/battlefield_pics/lombardy.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			yes
+}
+custom_location		Palm Beach
+{
+	location		486	41
+	image			data/menu/battlefield_pics/palm_beach.tga
+	sett_locked		no
+	climate			sandy_desert
+	summer			yes
+}
+custom_location		Lombardy
+{
+	location		149	172
+	image			data/menu/battlefield_pics/lombardy.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			yes
+}
+custom_location		Nordic Lake
+{
+	location		174	273
+	image			data/menu/battlefield_pics/Nordic_Lake.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			yes
+}
+custom_location		Russian Swamps
+{
+	location		297	257
+	image			data/menu/battlefield_pics/Russian_Swamps.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			yes
+}
+custom_location		River Seine
+{
+	location		97	199
+	image			data/menu/battlefield_pics/river_seine.tga
+	sett_locked		yes
+	climate			temperate_deciduous_forest
+	summer			yes
+}
+custom_location		River Jordan
+{
+	location		333	76
+	image			data/menu/battlefield_pics/river_jordan.tga
+	sett_locked		yes
+	climate			semi_arid
+	summer			yes
+}

@@ -1,0 +1,250 @@
+;
+;    TRADE  RESOURCES
+;
+; Reviewed, slightly remoded and supplemented with explanations for SSHIP 097 (Summer 2020).
+; See also descr_strat.txt - many provinces have precise explanations why a particular resource is there.
+;
+; Note: grain does not increase the growth of population.
+;
+; Ideas not used:
+; - ceramics - already covered by the concept of glass; it was also produced rather locally.
+; - sulphur (and other minerals - but non-metal) - used in ceramic, glass and tanning/dying: alredy depicted.
+; - pitch - included in the concept of timber.
+; - wax - included in the concept of honey.
+; - copper - included in the concept of metals.
+; - lead - included in the concept of silver.
+; - pigs and other meat-producing animals - rarely traded between the provinces; cattle is enough to depict such trade.
+; - dates - included in the concept of fruits.
+; - ivory - compared to the whole trade it was a marginal product.
+;
+; Info on modifying this file:
+; * it seems that between lined "mine" and "type   gold" must only be 2 blank spaces.
+; * be aware that simply putting a .cas file from another mod to present a resource on map doesn't work (results in CTD).
+; * however, changing the .tga icon to present them in city-panels is straightforward, just replace the file.
+; * adding here "has_mine" is not enough for the resource to have mines, you also need to add this condition in EDB
+
+mine				data/models_strat/resource_mine.CAS
+
+;========  RESOURCES TO BE MINED  (the building will provide increase in income)
+
+; Gold is a rather low priced here because in the MA the provinces with gold proved to be actually not richer than those withough. Admittedely, they still provided much income for the ruler, even if in a short time spans.
+;
+type				gold		; GOLD
+trade_value			34
+item				data/models_strat/resource_gold.CAS
+icon				data/ui/resources/resource_gold.tga
+has_mine
+
+; Silver was usually included in a lead ore (galena) so it appears also in the regions famous for lead (eg Krakow). Combined with mines it will give a lot of income.
+;
+type				silver		; SILVER and lead
+trade_value			28
+item				data/models_strat/resource_silver.CAS
+icon				data/ui/resources/resource_silver.tga
+has_mine
+
+; Metals are iron, copper, tin and any other ore used in the MA. Low price here but you can build mines that leverage the value.
+;
+type				iron		; METALS
+trade_value			16
+item				data/models_strat/resource_iron.CAS
+icon				data/ui/resources/resource_iron.tga
+has_mine
+
+; Marble is meant to be any better stone traded for building (limestone, granite etc.). Low price here but you can build mines that leverage the value.
+;
+type				marble		; MARBLE
+trade_value			14
+item				data/models_strat/resource_marble.CAS
+icon				data/ui/resources/resource_marble.tga
+has_mine
+
+;========  LOCAL INDUSTRIES  ================================================
+;
+; This signifies the textile industry and traditions in the region, not a particular resource.
+;
+type				textiles	; TEXTILES
+trade_value			22
+item				data/models_strat/resource_textile.CAS
+icon				data/ui/resources/resource_textile.tga
+
+; Luxury goods are produced in the centers of power or imported into the trade hubs - thus they're always located just outside the walls of the settlement.
+;
+type				tin			; LUXURY GOODS
+trade_value			18
+item				data/models_strat/resource_tin.CAS
+icon				data/ui/resources/resource_tin.tga
+
+; Glass signifies local traditions that may be related to special local quality of silica (or even special lime ingredients, as in the Phoenician coast), but may also be about continuation of specialization of the province in the past.
+;
+type				chocolate	; GLASS
+trade_value			16
+item				data/models_strat/resource_glass.CAS
+icon				data/ui/resources/resource_glass.tga
+
+;
+;========  TEXTILES  ======================================================
+;
+; Minerals used in dying, fulling and tanning, i.e dyes and mordants: alum, indigo, cochineal.
+type				dyes		; DYES
+trade_value			17
+item				data/models_strat/resource_dye.CAS
+icon				data/ui/resources/resource_dyes.tga
+
+; Silk production spread in the early MA to Syria and around Constantinpole, later to Greece, Sicily, and southern Spain.
+;
+type				silk		; SILK
+trade_value			20
+item				data/models_strat/resource_silk.CAS
+icon				data/ui/resources/resource_silk.tga
+
+type				cotton		; COTTON
+trade_value			18
+item				data/models_strat/resource_cotton.CAS
+icon				data/ui/resources/resource_cotton.tga
+
+; Depicts the raw resource, could be called also "flax". 
+; you can't just replace the 3 files below - there'll be CTD. It's coded somehow different.
+;
+type				sulfur		; LINEN
+trade_value			16
+item				data/models_strat/resource_linen.CAS
+icon				data/ui/resources/resource_linen.tga
+
+; In the north these are mainly high quality furs from hunting, while in the more developed provinces these are hides from husbandry.
+; Available everywhere.
+;
+type				furs		; FURS and HIDES
+trade_value			14
+item				data/models_strat/resource_fur.CAS
+icon				data/ui/resources/resource_fur.tga
+
+; Flocks of sheeps are available everywhere, but more in the hilly landscapes.
+;
+type				wool		; WOOL
+trade_value			12
+item				data/models_strat/resource_wool.CAS
+icon				data/ui/resources/resource_wool.tga
+
+;
+;========  SPICES & SWEETSTUFFS  ======================================
+;
+; Oriental spices imported from Africa, India and East Asia: pepper, cinnamon, cloves, nutmeg etc. Very high prices.
+;
+type				spices		; SPICES
+trade_value			25
+item				data/models_strat/resource_spices.CAS
+icon				data/ui/resources/resource_spices.tga
+
+; Herbs, vegetables and other local non-elite spices. Low prices.
+; Available everywhere.
+;
+type				coal		; LOCAL SPICES
+trade_value			15
+item				data/models_strat/resource_pepper.CAS
+icon				data/ui/resources/resource_pepper.tga
+
+; Salt was considered as a kind of spice. Among many useses, it was essential for meat preservation.
+; Available everywhere. However, no mines can be built.
+;
+type				tobacco		; SALT
+trade_value			13
+item				data/models_strat/resource_salt.CAS
+icon				data/ui/resources/resource_salt.tga
+
+; Sugar cane  (sugar beet, corn syrup or other sources of sugar were unknown in the MA).
+; Available in rather few regions in the Mediterranean and in the Near East.
+;
+type				sugar		; SUGAR
+trade_value			15
+item				data/models_strat/resource_sugar.CAS
+icon				data/ui/resources/resource_sugar.tga
+
+; Often collected from the wood bees, used as sweetener and to produce alcohol. Also wax - a very important in the MA times.
+; Available accross whole oikumene, especially in the north and in the mountains.
+;
+type				camels		; HONEY and WAX
+trade_value			13
+item				data/models_strat/resource_honey.CAS
+icon				data/ui/resources/resource_honey.tga
+
+; The most common MA sweetener, usually picked in the woods, but also cultivated by the farmers. Include fruit trees, dates etc.
+; Available everywhere, especially in more agriculturaly developed regions.
+;
+type				dogs		; FRUITS
+trade_value			11
+item				data/models_strat/resource_fruit.CAS
+icon				data/ui/resources/resource_fruit.tga
+
+;
+;========  FOODSTUFFS  ===================================================
+;
+; Available in Mediterranean provinces, especially on the slopes of hills.
+;
+type				wine		; WINE
+trade_value			14
+item				data/models_strat/resource_wine.CAS
+icon				data/ui/resources/resource_wine.tga
+
+; Olive oil, almond, poppy and the like, but also animal fat (butter, fat). Mind that sunflower and canola were unknown in the MA.
+; Available everywhere, especially in the more agriculturaly developed regions.
+;
+type				ivory		; OIL
+trade_value			12
+item				data/models_strat/resource_pottery.CAS
+icon				data/ui/resources/resource_oil.tga
+
+; Available everywhere, especially in the more agriculturaly developed regions.
+;
+type				grain		; GRAIN
+trade_value			11
+item				data/models_strat/resource_grain.CAS
+icon				data/ui/resources/resource_grain.tga
+
+; Available everywhere, especially in the less agriculturaly developed regions.
+;
+type				fish		; FISH
+trade_value			10
+item				data/models_strat/resource_fish.CAS
+icon				data/ui/resources/resource_fish.tga
+
+; Cattles was traded overland with own-leg transport. It was used for meat and dairy products (hides are included in concept of "furs and hides"). Pigs and goats were rarely traded between the provinces.
+; Available everywhere, especially in the less agriculturaly developed regions.
+;
+type				elephants	; CATTLE
+trade_value			10
+item				data/models_strat/resource_elephants.CAS
+icon				data/ui/resources/resource_elephants.tga
+
+;
+;========  OTHER RESOURCES  ======================================================
+;
+; Also the Christians used slaves in the MA (eg. 5% of Venice population in 15c, or Madeira slave re-population), but this resource is more important in the Muslim world.
+;
+type				slaves		; SLAVES
+trade_value			20
+item				data/models_strat/resource_slave.CAS
+icon				data/ui/resources/resource_slaves.tga
+
+; Amber could be found only on the short strip of the south-east Baltic coast (4 provinces). These provinces were not rich, so the price is not very high.
+;
+type				amber		; AMBER
+trade_value			16
+item				data/models_strat/resource_amber.CAS
+icon				data/ui/resources/resource_amber.tga
+
+; Timber and pitch are the most common resources so the price is low. Actually, it was traded between regions rather rarely in the MA, it was rather used locally (or exported by the sea). Therefore it will cluster: the neighbouring regions will all have it to avoid trading between them.
+;
+type				timber		; TIMBER and PITCH
+trade_value			10
+item				data/models_strat/resource_timber.CAS
+icon				data/ui/resources/resource_timber.tga
+
+;
+;========  TECHNICAL RESOURCE  ======================================================
+; DO NOT ADD THE FOLLOWING RESOURCE TO THE CAMPAIGN MAP. GENERIC RESOURCE USED TO REPRESENT GENERIC TRADE PIP IN TRADE SCROLL
+;
+type				generic
+trade_value			0
+item				data/models_strat/resource_dogs.CAS	; NOT ACTUALLY USED
+icon				data/ui/resources/resource_trade_goods.tga

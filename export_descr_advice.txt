@@ -1,0 +1,2 @@
+; 	dummy file to prevent the game from loading vanilla one
+;		this file is useful only to use the advisor to launch custom script, not needed in the SSHIP as of 2021 --- Belovese

@@ -1,0 +1,251 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+;
+; southern european settlements
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+
+type		settlement_southern_european_level_1
+filename	bases/settlements/ground_underlay_tiny.tga
+range		1.0	
+
+type		settlement_southern_european_level_2					
+filename	bases/settlements/ground_underlay_small.tga				
+range		1.3
+
+type		settlement_southern_european_level_3,							
+filename	bases/settlements/ground_underlay.tga			
+range		1.3
+
+type		settlement_southern_european_level_4							
+filename	bases/settlements/ground_underlay_se_city.tga	
+range		1.5
+
+type		settlement_southern_european_level_5								
+filename	bases/settlements/ground_underlay_se_city_large.tga			
+range		1.8
+
+type		settlement_southern_european_level_6								
+filename	bases/settlements/ground_underlay_se_city_huge.tga			
+range		1.9
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+;
+; northern european settlements
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+
+type		settlement_northern_european_level_1			
+filename	bases/settlements/ground_underlay_tiny.tga
+range		1.0	
+
+type		settlement_northern_european_level_2			
+filename	bases/settlements/ground_underlay_small.tga	
+range		1.3
+
+type		settlement_northern_european_level_3					
+filename	bases/settlements/ground_underlay.tga		
+range		1.3
+
+type		settlement_northern_european_level_4						
+filename	bases/settlements/ground_underlay_ne_city.tga		
+range		1.3
+
+type		settlement_northern_european_level_5					
+filename	bases/settlements/ground_underlay_ne_city_large.tga		
+range		1.5
+
+type		settlement_northern_european_level_6				
+filename	bases/settlements/ground_underlay_ne_city_huge.tga	
+range		1.9
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+;
+; greek settlements
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+
+type		settlement_greek_level_1		
+filename	bases/settlements/ground_underlay_tiny.tga
+range		1.0	
+
+type		settlement_greek_level_2
+filename	bases/settlements/ground_underlay_small.tga		
+range		1.3
+
+type		settlement_greek_level_3			
+filename	bases/settlements/ground_underlay.tga		
+range		1.3
+
+type		settlement_greek_level_4			
+filename	bases/settlements/ground_underlay_se_city.tga	
+range		1.5
+
+type		settlement_greek_level_5			
+filename	bases/settlements/ground_underlay_se_city_large.tga	
+range		1.5
+
+type		settlement_greek_level_6			
+filename	bases/settlements/ground_underlay_se_city_huge.tga
+range		1.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+;
+; eastern european settlements
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+
+type		settlement_eastern_european_level_1		
+filename	bases/settlements/ground_underlay_tiny.tga
+range		1.0	
+
+type		settlement_eastern_european_level_2
+filename	bases/settlements/ground_underlay_small.tga		
+range		1.3
+
+type		settlement_eastern_european_level_3			
+filename	bases/settlements/ground_underlay.tga		
+range		1.3
+
+type		settlement_eastern_european_level_4			
+filename	bases/settlements/ground_underlay_ne_city.tga			
+range		1.5
+
+type		settlement_eastern_european_level_5			
+filename	bases/settlements/ground_underlay_ne_city_large.tga				
+range		1.5
+
+type		settlement_eastern_european_level_6			
+filename	bases/settlements/ground_underlay_ne_city_huge.tga			
+range		1.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+;
+; middle eastern settlements
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+
+type		settlement_middle_eastern_level_1		
+filename	bases/settlements/ground_underlay_tiny.tga
+range		1.0	
+		
+type		settlement_middle_eastern_level_2
+filename	bases/settlements/ground_underlay_small.tga		
+range		1.3
+
+type		settlement_middle_eastern_level_3			
+filename	bases/settlements/ground_underlay.tga		
+range		1.3
+
+type		settlement_middle_eastern_level_4			
+filename	bases/settlements/ground_underlay_me_city.tga	
+range		1.5
+
+type		settlement_middle_eastern_level_5			
+filename	bases/settlements/ground_underlay_me_city_large.tga	
+range		1.5
+
+type		settlement_middle_eastern_level_6			
+filename	bases/settlements/ground_underlay_me_city_huge.tga		
+range		1.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+;
+; forts
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+
+type		fort_roman
+filename	bases/forts/fort_roman_underlay.tga		
+range		1.0			
+
+type		fort_eastern			
+filename	bases/forts/fort_eastern_underlay.tga					
+range		1.0
+
+type		fort_barbarian																																	
+filename	bases/forts/fort_barb_underlay.tga					
+range		1.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+;
+; roman ports
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+
+type		port_roman_level_1			
+filename	bases/ports/ground_underlay_small.tga		
+range		1.0			
+
+type		port_roman_level_2		
+filename	bases/ports/underlay_default.tga					
+range		1.3
+
+type		port_roman_level_3				
+filename	bases/ports/underlay_village.tga					
+range		1.3
+
+type		port_roman_level_4				
+filename	bases/ports/underlay_village.tga					
+range		1.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+;
+; eastern ports
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+
+type		port_eastern_level_1			
+filename	bases/ports/ground_underlay_small.tga					
+range		1.0
+
+type		port_eastern_level_2		
+filename	bases/ports/underlay_default.tga					
+range		1.3
+
+type		port_eastern_level_3				
+filename	bases/ports/underlay_village.tga					
+range		1.3
+
+type		port_eastern_level_4				
+filename	bases/ports/underlay_village.tga
+range		1.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+;
+; barbarian ports
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+
+type		port_barbarian_level_1			
+filename	bases/ports/ground_underlay_small.tga					
+range		1.0
+
+type		port_barbarian_level_2		
+filename	bases/ports/underlay_default.tga					
+range		1.3
+
+type		port_barbarian_level_3				
+filename	bases/ports/underlay_village.tga					
+range		1.3
+
+type		port_barbarian_level_4				
+filename	bases/ports/underlay_village.tga
+range		1.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+;
+; watchtowers
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;																											
+
+type		watchtower_roman
+filename	bases/watchtowers/watchtower_roman_underlay.tga
+range		1.0
+
+type		watchtower_eastern	
+filename	bases/watchtowers/watchtower_eastern_underlay.tga
+range		1.0
+
+type		watchtower_barbarian	
+filename	bases/watchtowers/watchtower_barb_underlay.tga
+range		1.0
